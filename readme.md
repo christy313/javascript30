@@ -6,4 +6,4 @@ While hitting the related key on your keyboard, it will make a drum sound with C
 
 ### Reference
 
-![keycode](https://www.toptal.com/developers/keycode)
+[keycode](https://www.toptal.com/developers/keycode)
