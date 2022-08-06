@@ -7,10 +7,11 @@ const playSound = (e) => {
   key.classList.add("playing");
 };
 
-const removeTransition = (e) => {
+function removeTransition(e) {
   if (e.propertyName !== "transform") return;
-};
+  this.classList.remove("playing");
+}
 
+document.addEventListener("keydown", playSound);
 const keys = document.querySelectorAll(".key");
 keys.forEach((key) => key.addEventListener("transitionend", removeTransition));
-document.addEventListener("keydown", playSound);
