@@ -9,7 +9,7 @@ When I declared the `removeTransition` function, I couldn't use arrow function b
 ### Reference
 
 1. [keycode](https://www.toptal.com/developers/keycode)
-<a href="https://www.toptal.com/developers/keycode" target="blank">keycode</a>
+<a href="https://www.toptal.com/developers/keycode" target="_blank">keycode</a>
 
 2. [HTML data-* Attribute](https://www.w3schools.com/tags/att_data-.asp)
 
