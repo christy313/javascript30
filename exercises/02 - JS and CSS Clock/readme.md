@@ -21,3 +21,5 @@ transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 
 - [transform-origin](https://css-tricks.com/almanac/properties/t/transform-origin/)
 
+-[transition](https://css-tricks.com/almanac/properties/t/transition/)
+
