@@ -21,15 +21,15 @@ transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 
 #### 3. Make the second rotate as the `new Date().getSeconds()`
 
-a. Make a function to run every seconds
-b. Get second
-c. Turn second to degree and integrate in clock
+- a. Make a function to run every seconds
+- b. Get second
+- c. Turn second to degree and integrate in clock
 
 ### Reference
 
 - [transform-origin](https://css-tricks.com/almanac/properties/t/transform-origin/)
 
--[transition](https://css-tricks.com/almanac/properties/t/transition/)
+- [transition](https://css-tricks.com/almanac/properties/t/transition/)
 
 - [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/setInterval)
 
