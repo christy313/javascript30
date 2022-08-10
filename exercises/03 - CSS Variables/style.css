@@ -18,3 +18,19 @@ body {
 input {
   width: 100px;
 }
+
+:root {
+  --base: #FFC600;
+  --blur: 10px;
+  --spacing: 10px;
+}
+
+img {
+  background: var(--base);
+  padding: var(--spacing);
+  filter: blur(var(--blur));
+}
+
+.highlight {
+  color: var(--base);
+}
