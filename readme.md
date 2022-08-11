@@ -22,8 +22,8 @@ File structure example
   - sound.js
   - note.md
 
-#### 1. Practicing naming files
+#### 1. Practicing how to name files
 
-#### 2. Practicing wrote note.md as learning process & notes
+#### 2. Practicing how to write in note.md to record learning process
 
-#### 3. Practicing to write PR summary and merge PR
+#### 3. Practicing how to write PR summary and merge PR
