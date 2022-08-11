@@ -8,9 +8,9 @@
 
 ### Reference
 
-1. [console.table()](https://developer.mozilla.org/en-US/docs/Web/API/console/table) makes an array in a table in console.
+#### 1. [console.table()](https://developer.mozilla.org/en-US/docs/Web/API/console/table) makes an array in a table in console.
 
-2. [The Inline Code element in HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code) 
+#### 2. [The Inline Code element in HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code) 
   
   - 2.a Presenting one line code in HTML:
 
