@@ -106,7 +106,17 @@ console.log("5. Sort inventors elder to younger", inventorsAge);
 
 // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
 // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
-// ['Boulevards of Paris', 'Boulevard des Capucines']
+// Get all links by query selector
+// iterate every single item and filter with the name "de"
+
+const category = document.querySelectorAll(".mw-category-group a");
+const links = Array.from(category);
+
+const streetsInParis = links
+  .map((link) => link.innerHTML)
+  .filter((street) => street.includes("de"));
+
+console.log("6. Check out the array.js file in day04");
 
 // 7. sort Exercise
 // Sort the people alphabetically by last name

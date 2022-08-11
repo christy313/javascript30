@@ -1,10 +1,11 @@
 ## Day04 Array Cardio Day 1
 
 ### Summary
+This is a JavaScript practice of using built-in functions in arrays.
 
 ### Practice
 
-#### 1. 
+#### Practicing JavaScript built-in functions `filter()`, `map()`, `sort()`, `reduce()`
 
 ### Reference
 
