@@ -67,7 +67,7 @@ const people = [
 const inventorsBornIn1500 = inventors.filter(
   (inventor) => inventor.year >= 1500 && inventor.year < 1600
 );
-console.log(inventorsBornIn1500);
+console.log("get inventors who born in 1500", inventorsBornIn1500);
 
 // Array.prototype.map()
 // 2. Give us an array of the inventors first and last names
@@ -75,7 +75,7 @@ console.log(inventorsBornIn1500);
 const inventorsFullName = inventors.map(
   (inventor) => `${inventor.first} ${inventor.last}`
 );
-console.log(inventorsFullName);
+console.log("get inventors full name", inventorsFullName);
 
 // Array.prototype.sort()
 // 3. Sort the inventors by birth year, oldest to youngest
@@ -83,7 +83,7 @@ console.log(inventorsFullName);
 const inventorsOldToYoung = inventors.sort((elderInventor, youngerInventor) =>
   elderInventor.year > youngerInventor.year ? 1 : -1
 );
-console.log(inventorsOldToYoung);
+console.log("sort inventors from old to young", inventorsOldToYoung);
 
 // Array.prototype.reduce()
 // 4. How many years did all the inventors live all together?
@@ -91,7 +91,7 @@ console.log(inventorsOldToYoung);
 const inventorsAliveYears = inventors.reduce((totalYears, inventor) => {
   return totalYears + (inventor.passed - inventor.year);
 }, 0);
-console.log(inventorsAliveYears);
+console.log("added up all inventors lived years", inventorsAliveYears);
 
 // 5. Sort the inventors by years lived
 // for example a is 87 years old, b is 50 years old, sort ordered like a to b
@@ -102,13 +102,15 @@ const inventorsAge = inventors.sort((elderInventor, youngerInventor) => {
   return olderAge > youngerAge ? -1 : 1;
 });
 
-console.log(inventorsAge);
+console.log("sort inventors elder to younger", inventorsAge);
 
 // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
 // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+// ['Boulevards of Paris', 'Boulevard des Capucines']
 
 // 7. sort Exercise
 // Sort the people alphabetically by last name
+console.log("sort people with alphabetically by last name", people.sort());
 
 // 8. Reduce Exercise
 // Sum up the instances of each of these
