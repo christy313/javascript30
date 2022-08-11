@@ -2,7 +2,7 @@
 
 ### Summary
 
-Using CSS custom properties (variables) with JavaScript and updated them in run time.
+Using CSS custom properties (variables) with JavaScript and updating them in run time.
 
 ### Practice
 
@@ -12,7 +12,7 @@ Using CSS custom properties (variables) with JavaScript and updated them in run 
 
 #### 3. Write a function `handleUpdate` to `setProperty()` to the input name and value.
 
-#### 4. Also listen to the mousemove event too.
+#### 4. Listen to the mousemove event too.
 
 ### Reference
 
