@@ -29,15 +29,17 @@ transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 
 ### Reference
 
-- [transform-origin](https://css-tricks.com/almanac/properties/t/transform-origin/)
+1.  [transform-origin](https://css-tricks.com/almanac/properties/t/transform-origin/)
 
-- [transition](https://css-tricks.com/almanac/properties/t/transition/)
+2. [transition](https://css-tricks.com/almanac/properties/t/transition/)
 
-- [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/setInterval)
+3. [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/setInterval)
 
-- [JavaScript HTML DOM - Changing CSS](https://www.w3schools.com/js/js_htmldom_css.asp)
+4. [JavaScript HTML DOM - Changing CSS](https://www.w3schools.com/js/js_htmldom_css.asp)
 
-- [Javascript, Time and Date: Getting the current minute, hour, day, week, month, year of a given millisecond time](https://stackoverflow.com/questions/4402934/javascript-time-and-date-getting-the-current-minute-hour-day-week-month-y)
+5. [Javascript, Time and Date: Getting the current minute, hour, day, week, month, year of a given millisecond time](https://stackoverflow.com/questions/4402934/javascript-time-and-date-getting-the-current-minute-hour-day-week-month-y)
+
+6. [JavaScript Get Date Methods](https://www.w3schools.com/js/js_date_methods.asp) 
 
 ```javascript
 new Date().getDate()          // Get the day as a number (1-31)
