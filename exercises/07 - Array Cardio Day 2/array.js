@@ -19,10 +19,34 @@ const comments = [
 // Array.prototype.some() // is at least one person 19 or older?
 // Array.prototype.every() // is everyone 19 or older?
 
+const atLeastOne19 = people.some(
+  (person) => new Date().getFullYear() - person.year >= 19
+);
+console.log("At least one person 19 or older", atLeastOne19);
+
+const everyone19 = people.every(
+  (person) => new Date().getFullYear() - person.year >= 19
+);
+console.log("Everyone 19 or older", everyone19);
+
 // Array.prototype.find()
 // Find is like filter, but instead returns just the one you are looking for
 // find the comment with the ID of 823423
 
+const findId823423 = comments.find((comment) => comment.id === 823423);
+console.log("The comment with the ID of 823423", findId823423);
+
 // Array.prototype.findIndex()
-// Find the comment with this ID
+// Find the index of comment with the ID of 823423
 // delete the comment with the ID of 823423
+const findIndex = comments.findIndex((comment) => {
+  return comment.id === 823423;
+});
+
+const deleteComment = comments.splice(findIndex, 1);
+console.log("Delete comment with splice", comments);
+
+const filterComment = comments.filter((comment) =>
+  comment.id === 823423 ? comments : []
+);
+console.log("Delete comment with filter", filterComment);
