@@ -1,7 +1,7 @@
 ## Day06 Type Ahead
 
 ### Summary
-Filter cities or state and population with an API data.
+Filter cities or states and populations with API data.
 
 ### Practice
 
@@ -17,11 +17,11 @@ RegExp with `match()` is much useful compared with `includes` in this function.
 
 - 3.b Put result in innerHTML
 
-- 3.c In `displayHtml`, it will return an array from `map`. There would be an comma when you see in between each place.
+- 3.c In `displayHtml`, it will return an array from `map`. There would be a comma when you see it in between each place.
 
 Join multiple strings in one string in the array that returned from `map` with `join()`.
 
-#### 4. Highlight the search result with input words and format numbers by comma with every three digits
+#### 4. Highlight the search result with input words and format numbers by a comma with every three digits
 
 ### Reference
 
