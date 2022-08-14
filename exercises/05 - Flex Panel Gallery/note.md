@@ -13,6 +13,11 @@ Flex property with `flex: 1 0 auto;` see ref 3.
 
 #### 4. Hide top & bottom text with `transform: translateY()`
 
+#### 5. When clicking the panel, the text becomes larger & triggers the transition.
+- 5.a Select all panels
+- 5.b Toggle class name open in the clicked panel
+- 5.c Listen to `transitionend` and toggle class name open-active 
+
 ### Reference
 
 #### 1. [flex-direction](https://css-tricks.com/almanac/properties/f/flex-direction/)
