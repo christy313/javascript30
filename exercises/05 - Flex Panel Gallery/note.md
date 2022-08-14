@@ -1,6 +1,7 @@
 ## Day05 Flex Panel Gallery
 
 ### Summary
+When clicking the panel, enlarge the font-size and the top and bottom text slide inside the panel.
 
 ### Practice
 
@@ -13,7 +14,7 @@ Flex property with `flex: 1 0 auto;` see ref 3.
 
 #### 4. Hide top & bottom text with `transform: translateY()`
 
-#### 5. When clicking the panel, the text becomes larger & triggers the transition.
+#### 5. When clicking the panel, enlarge the font-size r & triggers the transition.
 - 5.a Select all panels
 - 5.b Toggle class name open in the clicked panel
 - 5.c Listen to `transitionend` and toggle class name open-active 
