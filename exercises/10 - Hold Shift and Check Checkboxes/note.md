@@ -2,9 +2,13 @@
 
 ### Summary
 
+Hold the shift key to select multiple checkboxes.
+
 ### Practice
 
-#### 1. 
+#### 1. Select all checkbox and addEventListener to them
+
+#### 2. 
 
 ### Reference
 
