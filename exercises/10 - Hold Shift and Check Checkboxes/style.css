@@ -24,6 +24,7 @@ html {
 input:checked + p {
   background: #f9f9f9;
   text-decoration: line-through;
+  color: grey;
 }
 
 input[type="checkbox"] {
