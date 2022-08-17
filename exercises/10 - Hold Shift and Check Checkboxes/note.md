@@ -14,6 +14,8 @@ File names must be all lowercase and may include underscores (_) or dashes (-), 
 
 2. Using css to line through the content when checkbox checked.
 
+[:checked](https://css-tricks.com/almanac/selectors/c/checked/)
+
 ```html
   <div class="item">
     <input type="checkbox" />
