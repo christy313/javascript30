@@ -2,13 +2,21 @@
 
 ### Summary
 
-Hold the shift key to select multiple checkboxes.
+Hold the shift key to check multiple checkboxes.
 
 ### Practice
 
-#### 1. Select all checkbox and addEventListener to them
+#### 1. Select all checkbox and wrote a function named `handleCheck` with `addEventListener` to each of them
 
-#### 2. 
+#### 2. At line 9, use OR `||` to make two directions work, checkbox from top to bottom and vice versa.
+
+#### 3. At line 10 and 15, the first checkbox would be considered to inBetween too
+
+#### 4. Set `inBetween` variable to control which checkbox should be checked.
+
+### Future Improvement
+
+- Hold on shift key to unchecked multiple boxes.
 
 ### Reference
 
