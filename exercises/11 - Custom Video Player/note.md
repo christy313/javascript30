@@ -6,7 +6,11 @@ Build HTML5 video player interface with speed, volume, start , pause and skip si
 
 ### Practice
 
-#### 1. 
+#### 1. Get the elements in HTML by query selectors
+
+#### 2. Build the functions
+
+#### 3. Hook up the event listeners
 
 ### Future Improvement
 
