@@ -2,7 +2,7 @@
 
 ### Summary
 
-Build HTML5 video player interface with speed, volume, start , pause and skip sidebar and buttons.
+Build HTML5 video player interface with speed, volume, play, pause and skip sidebar and buttons.
 
 ### Practice
 
@@ -40,7 +40,10 @@ To wrap up, there're some method in video I've learned in this app:
 
 ### Future Improvement
 
+- volume & play back rate sidebar could have some hints
 
 ### Reference
 
-1. 
+1. [UTF-8 Miscellaneous Symbols](https://www.w3schools.com/charsets/ref_utf_misc_symbols.asp)
+
+2. [UTF-8 icons](https://www.utf8icons.com/)
