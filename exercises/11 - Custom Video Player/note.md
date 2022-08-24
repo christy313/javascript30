@@ -16,6 +16,26 @@ Build HTML5 video player interface with speed, volume, start , pause and skip si
 
 [HTMLMediaElement.pause()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/pause)
 
+- b. Skip buttons would be used with `video.currentTime`
+
+- c. Update `flex-basis` with `.progress__filled` in progress bar
+
+Listen to the `timeupdate` event and execute the function `handleProgress`
+
+To wrap up, there're some method in video I've learned in this app:
+
+- play()
+
+- paused
+
+- currentTime
+
+- duration
+
+- volume
+
+- playbackRate
+
 #### 3. Hook up the event listeners
 
 ### Future Improvement
