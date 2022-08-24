@@ -10,7 +10,7 @@ Build HTML5 video player interface with speed, volume, play, pause and skip side
 
 #### 2. Build the functions
 
-- a. There's a method in video called `[paused](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/paused)`, the default value is true.
+- a. There's a method in the video element called `[paused](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/paused)`, the default value is true.
 
 [HTMLMediaElement.play()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play)
 
@@ -22,7 +22,7 @@ Build HTML5 video player interface with speed, volume, play, pause and skip side
 
 Listen to the `timeupdate` event and execute the function `handleProgress`
 
-To wrap up, there're some method in video I've learned in this app:
+To wrap up, there're some methods in this video I've learned in this app:
 
 - play()
 
@@ -40,7 +40,9 @@ To wrap up, there're some method in video I've learned in this app:
 
 ### Future Improvement
 
-- volume & play back rate sidebar could have some hints
+- volume & playback rate sidebar could have some hints
+
+- [How to build a Custom HTML5 Video Player with JavaScript](https://freshman.tech/custom-html5-video/)
 
 ### Reference
 

@@ -7,9 +7,9 @@ const skipButtons = player.querySelectorAll("[data-skip]");
 const ranges = player.querySelectorAll(".player__slider");
 const fullscreen = player.querySelector(".fullscreen");
 
-const togglePlay = () => {
+function togglePlay() {
   video.paused ? video.play() : video.pause();
-};
+}
 
 function updateButton() {
   const icon = this.paused ? "►" : "❚ ❚";
@@ -24,10 +24,10 @@ function handleRangeUpdate() {
   video[this.name] = this.value;
 }
 
-const handleProgress = () => {
+function handleProgress() {
   const percent = (video.currentTime / video.duration) * 100;
   progressBar.style.flexBasis = `${percent}%`;
-};
+}
 
 function scrub(e) {
   const scrubTime = (e.offsetX / progress.offsetWidth) * video.duration;
