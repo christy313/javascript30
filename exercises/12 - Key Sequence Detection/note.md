@@ -2,19 +2,17 @@
 
 ### Summary
 
-Creating a Konami Code easter egg with vanilla JS.
+Creating a Konami Code easter egg with vanilla JS when entering the secret keys it will trigger some events.
 
 ### Practice
 
-#### 1. Listening to the `e.key` to detect the key down event
+#### 1. Listening to the `e.key` to detect the `keyup` event
 
-#### 2. Counting from the end back to forth
+#### 2. Counting the characters back to front
 
-If I start from the first character, it will always detect from the start and be limited to the six characters I set.
+If I start from the first character, it will always detect from the start and be limited to the six characters I enter.
 
 However, if I start from the end, it will detect the character change and check if the string match our setting.
-
-### Future Improvement
 
 ### Reference
 
