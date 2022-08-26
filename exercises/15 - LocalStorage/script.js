@@ -42,6 +42,10 @@ function toggleDone(e) {
   localStorage.setItem("items", JSON.stringify(items));
 }
 
+function clearAll() {}
+function checkAll() {}
+function uncheckAll() {}
+
 addItems.addEventListener("submit", addItem);
 itemsList.addEventListener("click", toggleDone);
 clearAllButton.addEventListener("click", clearAll);
