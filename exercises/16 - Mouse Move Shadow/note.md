@@ -2,7 +2,7 @@
 
 ### Summary
 
-Detecting mousemove and make the shadow.
+Detecting mousemove to find the position of x and y and add the style of text shadow.
 
 ### Practice
 
@@ -10,7 +10,11 @@ Detecting mousemove and make the shadow.
 
 #### 2. Listen to the `mousemove` event and trigger the `shadow` function.
 
-#### 3. 
+#### 3. The div element in HTML contains `offsetHeight` & `offsetWidth`, using offset to define the style.
+- use `console.dir(hero)` to see the methods inside.
+
+#### 4. The event contains `offsetX` & `offsetY`
+- use `console.dir(e)` to see the methods inside.
 
 ### Improvement in the future
 
