@@ -2,10 +2,9 @@
 
 ### Summary
 
-Sort an array with band names without defined or undefined articles such as "a", "an" and "the".
+Sort band names in an array without defined or undefined articles such as "a", "an" and "the".
 
 ```javascript
-
 // input
 [
   "The Plot in You",
@@ -31,10 +30,31 @@ Sort an array with band names without defined or undefined articles such as "a",
 
 ### Practice
 
-#### 1. Sort bands in order
+#### 1. Sort array in order
 
-#### 2. Remove defined & undefined articles by regular express + `replace()`
+Alphabet letters could be compared with the comparisons + or -.
 
-#### 3. Make the list as a big string and put the band names to `innerHTML` in the DOM 
+```javascript
+const arr = ["B", "A", "C"];
+arr.sort((a, b) => (a > b ? 1 : -1));
+
+// output ["A", "B", "C"];
+```
+
+#### 2. Wrote a function named strip to remove defined & undefined articles by regular expression + `replace()`
+
+- a. regular expression
+
+```javascript
+/^(a |the |an )/i
+```
+
+#### 3. Put the array into `innerHTML` as a big string in the DOM 
+
+When setting something in innerHTML which is not a string, it will automatically call toString().
+
+The point is when we use `innerHTML`, it supposed to return a big string.
 
 ### Reference
+
+- 1. [Advanced searching with flags](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#advanced_searching_with_flags)
